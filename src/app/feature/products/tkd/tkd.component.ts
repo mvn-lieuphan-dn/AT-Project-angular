@@ -28,10 +28,7 @@ export class TkdComponent implements OnInit {
     this.apiService.get(ENDPOINT.products, '/?category=1').subscribe(e => {
       this.data = e; 
     })
-    
-    console.log('data --- '+this.data);
   }
-
 }
 
 
