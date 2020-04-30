@@ -1,0 +1,58 @@
+<app-introduce></app-introduce>
+<div>
+  <section class="category">
+    <h2>Thuốc kê đơn</h2>
+    <app-line></app-line>
+    <div class="flex-box ">
+      <div *ngFor="let item1 of tkd" appFavorite [node]="item1">
+        <div class="products">
+          <div (click)="getDetail(item1)">
+            <img src={{item1.img}}>
+            <p>{{item1.name}}</p>
+            <p>{{item1.price}}$</p>
+          </div>
+          <div class="favorite" *ngIf="isLogin">
+            <i class="far fa-heart" [style.color]="item1.state ? 'red' :'grey'"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="category">
+    <h2>Thuốc không kê đơn</h2>
+    <app-line></app-line>
+    <div class="flex-box">
+      <div *ngFor="let item2 of tkkd" appFavorite [node]="item2">
+        <div class="products">
+          <div (click)="getDetail(item2)">
+            <img src={{item2.img}}>
+            <p>{{item2.name}}</p>
+            <p>{{item2.price}}$</p>
+          </div>
+          <div class="favorite" *ngIf="isLogin">
+            <i class="far fa-heart" [style.color]="item2.state ? 'red' :'grey'"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="category">
+    <h2>Thực phẩm chức năng</h2>
+    <app-line></app-line>
+    <div class="flex-box ">
+      <div *ngFor="let item3 of tpcn" appFavorite [node]="item3">
+        <div class="products">
+          <div (click)="getDetail(item3)">
+            <img src={{item3.img}}>
+            <p>{{item3.name}}</p>
+            <p>{{item3.price}}$</p>
+          </div>
+          <div class="favorite" *ngIf="isLogin">
+            <i class="far fa-heart" [style.color]="item3.state ? 'red' :'grey'"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<app-blogs></app-blogs>

@@ -1,0 +1,41 @@
+<div class="row">
+  <img src="assets/banner/banner4.png">
+  <article class="col-sm-9">
+    <h2>Tình hình Covid19</h2>
+    <div class="flex-box">
+      <div>
+        <div class="news">
+
+          <img src={{news.img}} class="detail--img__100 " alt="" />
+          <div>
+            <h5>{{news.tittle}}</h5>
+            <p class="card-p">Đăng bởi {{news.author}} | {{news.date}} </p>
+            <p class="card-text">{{news.content}}</p>
+            <button class="btn btn-link"> <a href={{news.link}} target="_blank">Xem thêm</a></button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="news">
+
+          <img src={{news.img}} class="detail--img__100 " alt="" />
+          <div>
+            <h5>{{news.tittle}}</h5>
+            <p class="card-p">Đăng bởi {{news.author}} | {{news.date}} </p>
+            <p class="card-text">{{news.content}}</p>
+            <button class="btn btn-link"> <a href={{news.link}} target="_blank">Xem thêm</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </article>
+  <div class="col-sm-3">
+    <section>
+      <h2>Khách hàng</h2>
+      <img src={{customer.avatar}}>
+      <p class="text-center">{{customer.name}}</p>
+      <p>"{{customer.comment}}"</p>
+    </section>
+  </div>
+</div>

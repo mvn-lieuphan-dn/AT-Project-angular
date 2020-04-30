@@ -1,0 +1,13 @@
+<section class="category">
+  <h2>Favorite Product</h2>
+  <div class="flex-box">
+    <div *ngFor="let item of data">
+      <div class="products">
+        <p>{{item.name}}</p>
+        <img src={{item.img}}>
+        <p>{{item.price}}$</p>
+      </div>
+    </div>
+  </div>
+</section>
+

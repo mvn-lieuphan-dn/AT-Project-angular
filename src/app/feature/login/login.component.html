@@ -1,0 +1,24 @@
+<div class="page">
+  <div class="wrapper">
+    <div id="formContent">
+      <h2>Đăng nhập</h2>
+      <form #templateForm="ngForm" (ngSubmit)="doLogin(templateForm)">
+        <div class="input-container">
+          <i class="fa fa-envelope icon"></i>
+          <input type="email" id="email" name="email" placeholder="Email đăng ký" #resultMail="ngModel"
+            class={{classMail}} [(ngModel)]="email" required>
+        </div>
+
+        <div class="input-container">
+          <i class="fa fa-key icon"></i>
+          <input type="password" id="password" name="pass" placeholder="Mật khẩu" #resultPass="ngModel"
+            class={{classPass}} [(ngModel)]="pass" required>
+        </div>
+
+        <button type="submit" class="btn-submit">Đăng nhập</button>
+
+      </form>
+
+    </div>
+  </div>
+</div>

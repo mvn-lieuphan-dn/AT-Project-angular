@@ -1,0 +1,44 @@
+.footer {
+  color: map-get($map: $color, $key: secondary);
+
+  .links {
+    ul {
+      list-style-type: none;
+    }
+
+    li a {
+      color: map-get($map: $color, $key: secondary);
+      transition: color .2s;
+
+      &:hover {
+        text-decoration: none;
+        color: map-get($map: $color, $key: primary);
+      }
+    }
+  }
+
+  .about-company {
+    i {
+      font-size: 25px;
+    }
+
+    a {
+      color: white;
+      transition: color .2s;
+
+      &:hover {
+        color: map-get($map: $color, $key: primary);
+      }
+    }
+  }
+
+  .location {
+    i {
+      font-size: 18px;
+    }
+  }
+
+  .copyright p {
+    border-top: 1px solid map-get($map: $color, $key: border);
+  }
+}

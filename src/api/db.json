@@ -1,0 +1,372 @@
+{
+  "admin": [
+    {
+      "id": 1,
+      "admin": "admin",
+      "password": "admin"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Nguyễn Thự Song Ngọc",
+      "email": "nguyenthusongngoc@gmail.com",
+      "pass": "123123123",
+      "rePass": "123123123",
+      "favorite": [
+        {
+          "id": 7,
+          "name": "BOCALEX",
+          "img": "assets/img/tkd/7.jpg",
+          "price": 500,
+          "inventory": 23,
+          "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+          "category": 1,
+          "state": true
+        },
+        {
+          "id": 22,
+          "name": "Nước hồng sâm Hongsamjin Gold 100mL",
+          "img": "assets/img/tpcn/2.jpg",
+          "price": 210,
+          "inventory": 10,
+          "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+          "category": 3,
+          "state": true
+        },
+        {
+          "id": 2,
+          "name": "IVERMECTIN MIC 6mg",
+          "img": "assets/img/tkd/2.jpg",
+          "price": 165,
+          "inventory": "",
+          "category": 1,
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fullName": "Nguyễn Nào Đó",
+      "email": "nguyennaodo@gmail.com",
+      "pass": "123123123",
+      "rePass": "123123123",
+      "favorite": [
+        {
+          "id": 1,
+          "name": "BIOTIN 5mg",
+          "img": "assets/img/tkd/1.jpg",
+          "price": 165,
+          "inventory": 69,
+          "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+          "category": 1,
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "fullName": "Phan Thi Lieu",
+      "email": "123123123@123.com",
+      "pass": "123123123",
+      "rePass": "123123123",
+      "favorite": []
+    },
+    {
+      "id": 4,
+      "fullName": "123123",
+      "email": "123123@123123123.com",
+      "pass": "123123123",
+      "rePass": "123123123",
+      "favorite": []
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "BIOTIN 5mg",
+      "img": "assets/img/tkd/1.jpg",
+      "price": 165,
+      "inventory": 69,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 1
+    },
+    {
+      "id": 2,
+      "name": "IVERMECTIN MIC 6mg",
+      "img": "assets/img/tkd/2.jpg",
+      "price": 165,
+      "inventory": "",
+      "category": 1
+    },
+    {
+      "id": 3,
+      "name": "YAZ",
+      "img": "assets/img/tkd/3.jpg",
+      "price": 165,
+      "inventory": 51,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 1
+    },
+    {
+      "id": 4,
+      "name": "POLYGYNAX",
+      "img": "assets/img/tkd/4.jpg",
+      "price": 185,
+      "inventory": "",
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 1
+    },
+    {
+      "id": 5,
+      "name": "SERETIDE",
+      "img": "assets/img/tkd/5.jpg",
+      "price": 300,
+      "inventory": "",
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 1
+    },
+    {
+      "id": 6,
+      "name": "DIFFERIN",
+      "img": "assets/img/tkd/6.jpg",
+      "price": 450,
+      "inventory": 15,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 1
+    },
+    {
+      "id": 7,
+      "name": "BOCALEX",
+      "img": "assets/img/tkd/7.jpg",
+      "price": 500,
+      "inventory": 23,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 1
+    },
+    {
+      "id": 8,
+      "name": "DIANE 35",
+      "img": "assets/img/tkd/8.jpg",
+      "price": 500,
+      "inventory": 24,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 1
+    },
+    {
+      "id": 9,
+      "name": "DIAMICRON MR",
+      "img": "assets/img/tkd/9.jpg",
+      "price": 750,
+      "inventory": 14,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 1
+    },
+    {
+      "id": 10,
+      "name": "KLENZIT",
+      "img": "assets/img/tkd/10.jpg",
+      "price": 100,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 1
+    },
+    {
+      "id": 11,
+      "name": "ENAT 400 ",
+      "img": "assets/img/tkkd/1.jpg",
+      "price": 300,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 2
+    },
+    {
+      "id": 12,
+      "name": "DẦU GIÓ TRƯỜNG SƠN",
+      "img": "assets/img/tkkd/2.jpg",
+      "price": 500,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 2
+    },
+    {
+      "id": 13,
+      "name": "MARVELON",
+      "img": "assets/img/tkkd/3.jpg",
+      "price": 550,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 2
+    },
+    {
+      "id": 14,
+      "name": "OSLA",
+      "img": "assets/img/tkkd/4.jpg",
+      "price": 560,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 2
+    },
+    {
+      "id": 15,
+      "name": "ALBENDAZOL STADA 400mg",
+      "img": "assets/img/tkkd/5.jpg",
+      "price": 600,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 2
+    },
+    {
+      "id": 16,
+      "name": "NATRI CLORID",
+      "img": "assets/img/tkkd/6.jpg",
+      "price": 620,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 2
+    },
+    {
+      "id": 17,
+      "name": "EUGICA",
+      "img": "assets/img/tkkd/7.jpg",
+      "price": 700,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 2
+    },
+    {
+      "id": 18,
+      "name": "NƯỚC CẤT",
+      "img": "assets/img/tkkd/8.jpg",
+      "price": 800,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 2
+    },
+    {
+      "id": 19,
+      "name": "DẦU GIÓ EAGLE BRAND",
+      "img": "assets/img/tkkd/9.jpg",
+      "price": 920,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 2
+    },
+    {
+      "id": 20,
+      "name": "EFTICOL",
+      "img": "assets/img/tkkd/10.jpg",
+      "price": 100,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 2
+    },
+    {
+      "id": 21,
+      "name": "VITAMIN C",
+      "img": "assets/img/tpcn/1.jpg",
+      "price": 200,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 2
+    },
+    {
+      "id": 22,
+      "name": "Nước hồng sâm Hongsamjin Gold 100mL",
+      "img": "assets/img/tpcn/2.jpg",
+      "price": 210,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 3
+    },
+    {
+      "id": 23,
+      "name": "Bocalex Multi",
+      "img": "assets/img/tpcn/3.jpg",
+      "price": 250,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 3
+    },
+    {
+      "id": 24,
+      "name": "VITAMIN C BLACKMORES BIO C ",
+      "img": "assets/img/tpcn/4.jpg",
+      "price": 250,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 3
+    },
+    {
+      "id": 25,
+      "name": "EUGICA",
+      "img": "assets/img/tpcn/5.jpg",
+      "price": 500,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 3
+    },
+    {
+      "id": 26,
+      "name": "CODATUX DAILY",
+      "img": "assets/img/tpcn/6.jpg",
+      "price": 800,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 3
+    },
+    {
+      "id": 27,
+      "name": "CONDITION",
+      "img": "assets/img/tpcn/7.jpg",
+      "price": 800,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 3
+    },
+    {
+      "id": 28,
+      "name": "VITAMIN C SỮA ONG CHÚA",
+      "img": "assets/img/tpcn/8.jpg",
+      "price": 900,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 3
+    },
+    {
+      "id": 29,
+      "name": "DẦU TỎI",
+      "img": "assets/img/tpcn/9.jpg",
+      "price": 100,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 3
+    },
+    {
+      "id": 30,
+      "name": "NAT C",
+      "img": "assets/img/tpcn/10.jpg",
+      "price": 100,
+      "inventory": 10,
+      "description": "Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và giá cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ tận tình từ các nhân viên, dược sĩ của chúng tôi.",
+      "category": 3
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Thuốc kê đơn",
+      "status": true
+    },
+    {
+      "id": 2,
+      "name": "Thuốc không kê đơn",
+      "status": false
+    },
+    {
+      "id": 3,
+      "name": "Thực phẩm chức năng",
+      "status": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<section class="category">
+  <h2>Thuốc không kê đơn</h2>
+  <app-line></app-line>
+  <div class="flex-box-2">
+    <div *ngFor="let item of data" appFavorite [node]="item">
+      <div class="products">
+        <div (click)="getDetail(item)">
+          <img src={{item.img}}>
+          <p>{{item.name}}</p>
+          <p>{{item.price}}$</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

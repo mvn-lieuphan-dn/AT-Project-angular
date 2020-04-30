@@ -1,0 +1,24 @@
+<form #templateForm="ngForm" (ngSubmit)="editProfile(templateForm)">
+
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input type="text" id="fullName" name="fullName" placeholder="Họ và tên" minlength="8" #resultName="ngModel"
+      [ngModel]="data?.fullName" required (input)="checkType()">
+
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input type="email" id="email" name="email" placeholder="Email đăng ký" 
+      [ngModel]="data?.email" disabled required>
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input type={{statePass}} id="password" name="pass" placeholder="Mật khẩu" #resultPass="ngModel"
+      [ngModel]="data?.pass" required (input)="checkType()">
+  </div>
+  <i class="absolute" [class]="show?'fas fa-eye-slash':'fas fa-eye'" (click)="showPass()"></i>
+
+  <button type="submit" class="btn-submit">Lưu</button>
+</form>

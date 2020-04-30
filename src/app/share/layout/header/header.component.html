@@ -1,0 +1,33 @@
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" routerLink="/"><img src="../../../../assets/logo/large.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="./products/thuockedon">Thuốc kê đơn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="./products/thuockhongkedon">Thuốc không kê đơn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./products/thucphamchucnang">Thực phẩm chức năng</a>
+        </li>
+      </ul>
+      <div *ngIf="!isLogged">
+        <a class="btn btn-link" routerLink="login">Login</a>
+        <a class="btn btn-link" routerLink="register">Register</a>
+      </div>
+      <div class="navbar-text" *ngIf="isLogged">
+        <a class="btn btn-link" routerLink="/user">Profile</a>
+        <button (click)="logOut()" class="btn btn-link"> <a>Logout</a></button>
+      </div>
+    </div>
+  </nav>
+</div>

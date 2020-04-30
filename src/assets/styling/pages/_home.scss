@@ -1,0 +1,29 @@
+.showmore {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.new-product {
+  h2 {
+    margin: 10px 0;
+  }
+
+  width: 60%;
+  margin: 50px auto;
+
+  img {
+    width: 100%;
+  }
+}
+
+.news {
+  width: 90%;
+}
+
+.top-home {
+  width: 50%;
+  margin: auto;
+}
