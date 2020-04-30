@@ -1,29 +1,25 @@
 <div class="text-center">
   <h2>Giới thiệu</h2>
   <img src="assets/anything/line-title.png" class="line-content">
-
-  <p>Với nghĩa vụ phục vụ cho sức khỏe của khách hàng, chúng tôi đem đến những sản phẩm tốt nhất và
-    giá
-    cả phải chăng nhất đến với khách hàng, đến với chúng tôi các bạn sẽ được nhận được sự phục vụ
-    tận
-    tình từ các nhân viên, dược sĩ của chúng tôi.</p>
+  <p>Đối với du khách thì Đà Nẵng là điểm du quá ư là nổi tiếng. Tuy vậy không phải ai cũng
+     đi khắp tất cả những địa điểm du lịch Đà Nẵng đâu nhé. Cùng folojourneys vi vu khắp địa
+      điểm du khách phải ghé khi đến Đà thành , tham quan các địa điểm đẹp, nổi tiếng với những
+       danh lam thắng cảnh tuyệt đẹp, với những món ăn mang đậm hương vị miền trung, ....</p>
 </div>
 <div class="detail ">
-  <h2 class="text-center">Sản phẩm mới</h2>
-  <img src="assets/anything/line-title.png" class="line-content">
-
+  <h2 class="text-center">Địa điểm hot</h2>
   <div class=" row">
-    <div class="col-sm-6 img-detail ">
-      <img src={{data.img}}>
+    <div class="col-sm-6 img-detail " style="height: 70%;">
+      <img src={{data.img}} >
     </div>
     <div class="col-sm-6">
       <h4>{{data.name}}</h4>
       <img src="assets/anything/arrow.png" class="arrow">
       <h3 class="price ">{{data.price}} $</h3>
       <h4>Giới thiệu</h4>
-      <p [class.showmore]="unShow">{{data.description}}</p>
+      <p [class.showmore]="unShow">{{ data.description }}</p>
       <button class="btn btn-link" (click)="showMore()" *ngIf="unShow">Xem thêm</button><br>
-      <button class="btn btn-primary" (click)="getDetail(data)">Chi tiết sản phẩm</button>
+      <button class="btn btn-primary" (click)="getDetail(data)">Chi tiết địa danh</button>
       <br>
       <hr>
       <p>Danh mục: {{ctg}}</p>

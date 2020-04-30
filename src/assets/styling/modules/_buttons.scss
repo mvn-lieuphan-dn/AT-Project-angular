@@ -14,3 +14,25 @@
 .btn-submit:hover {
   opacity: 1;
 }
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.18);
+  transform: translateY(-2px);
+  transition: 0.25s;
+  &:hover {
+    box-shadow: rgba(70,70,70,0.4) 5px 5px 10px,
+      rgba(255,255,255,1) -3px -3px 8px;
+  }
+  &:active {
+    color: map-get($map: $color, $key: gold);
+    box-shadow: -3px -3px 7px #fff8f8 inset, 3px 3px 7px #bbc3cc inset;
+    user-select: none;
+  }
+}
+.btn-primary {
+  background-color: #cccc;
+  color: map-get($map: $color, $key: secondary);
+}
+

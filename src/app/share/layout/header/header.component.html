@@ -1,14 +1,22 @@
 <div class="container">
   <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" routerLink="/"><img src="../../../../assets/logo/large.png" alt=""></a>
+    <a class="navbar-brand" routerLink="/"><img style="width: 100px;" src="../../../../assets/logo/logo2.PNG" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
       aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarText">
+    <!-- <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" routerLink="/">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" routerLink="/">Trang chủ <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="dropdown-toggle nav-link">Catelory</a>
+          <ul class="dropdown-menu">
+          <li class="dropdown-item"><a href="#">Link 1</a></li>
+          <li class="dropdown-item"><a href="#">Link 2</a></li>
+          <li class="dropdown-item"><a href="#">Link 3</a></li>
+          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="./products/thuockedon">Thuốc kê đơn</a>
@@ -28,6 +36,40 @@
         <a class="btn btn-link" routerLink="/user">Profile</a>
         <button (click)="logOut()" class="btn btn-link"> <a>Logout</a></button>
       </div>
-    </div>
+    </div> -->
+    <section class="sidebar d-flex ml-auto">
+      <nav class="nav d-flex flex-col ml-auto">
+        <ul class="nav-list menu-top d-flex flex-wrap align-center ml-auto">
+          <li class="nav-item"><a class="nav-link" routerLink="/home" routerLinkActive="active" routerLinkActiveOptions="exact: true" href="">Trang chủ</a></li>
+          <li class="nav-item"><a class="nav-link"  routerLinkActive="active" routerLinkActiveOptions="exact: true" href="">Tất cả sản phẩm</a></li>
+          <li class="nav-item dropdown">
+            <a class="dropbtn nav-link">Phân loại <i class="fa fa-caret-down"></i></a>
+            <ul class="dropdown-content">
+            <li class="dropdown-content-item"><a class="nav-link" routerLink="./products/thuockedon">Thuốc kê đơn</a></li>
+            <li class="dropdown-content-item"><a class="nav-link" routerLink="./products/thuockhongkedon">Thuốc không kê đơn</a></li>
+            <li class="dropdown-content-item"><a class="nav-link" href="./products/thucphamchucnang">Thực phẩm chức năng</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="">Tin Tức</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Giới Thiệu</a></li>
+          <li class="nav-item"><a class="nav-link" routerLink="/account/dashboard" routerLinkActive="active" routerLinkActiveOptions="exact: true" href="" href="">Hỗ trợ</a></li>
+        </ul>
+        <ul class="nav-list d-flex flex-wrap align-center ml-auto pt-1">
+          <li class="nav-item d-flex align-center search">
+            <input class="input-search" type="text" placeholder="Tìm kiếm ...">
+            <a><i class="fa fa-search"></i></a>
+          </li>
+          <div *ngIf="!isLogged" class="d-flex">
+            <li class="nav-item"><a class="nav-link" routerLink="login" routerLinkActive="active" routerLinkActiveOptions="exact: true" href=""><i class="fa fa-user pr-1"></i>Đăng Nhập</a></li>
+            <li class="nav-item"><a class="nav-link" routerLink="register" routerLinkActive="active" routerLinkActiveOptions="exact: true" href=""><i class="fa fa-user-plus pr-1"></i>Đăng kí</a></li>
+          </div>
+          <div *ngIf="isLogged" class="d-flex">
+            <li class="nav-item"><a class="nav-link" routerLink="/user" routerLinkActive="active" routerLinkActiveOptions="exact: true" href=""><i class="fa fa-user pr-1"></i>Tài khoản</a></li>
+            <li class="nav-item"><a class="nav-link" (click)="logOut()" class="btn btn-link"><i class="fa fa-user-plus pr-1"></i>Đăng xuất</a></li>
+          </div>
+          <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-heart pr-1"></i><span class="count-favourite">0</span></a></li>
+        </ul>
+      </nav>
+    </section>
   </nav>
 </div>

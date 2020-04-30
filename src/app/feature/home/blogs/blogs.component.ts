@@ -7,18 +7,23 @@ import { from } from 'rxjs';
 })
 export class BlogsComponent implements OnInit {
   news = {
-    tittle: 'Thứ trưởng Bộ Y tế lý giải nguyên nhân 5 ca dương tính trở lại',
-    content: 'Thứ trưởng Bộ Y tế nêu 3 vấn đề với những ca tái dương tính SARS-CoV-2, trong đó có trường hợp dự đoán kháng thể không thể tiêu diệt được virus, virus sẽ tồn tại rất lâu.',
-    author: 'Hoài Thu',
+    tittle: 'Thiên đường ẩm thực và góc check-in siêu xịn',
+    content: `Nằm trên trục đường trung tâm 2/9, vị trí đắc địa, sầm uất,
+     chợ đêm Helio Center là một địa điểm đầy thú vị mà du khách nhất định phải 
+     bổ sung trong hành trình du hí đêm Đà Nẵng của mình. Không chỉ được mệnh danh
+      là thiên đường ẩm thực về đêm vừa ngon vừa rẻ, nơi đây còn thu hút nhờ phim 
+      trường check-in
+     xinh xẻo, phân khu bia và nướng độc đáo, lễ hội mùa hè náo nhiệt hằng đêm.`,
+    author: 'Hoa Ha',
     date: '12:04 25/04/2020',
-    img: 'assets/anything/news.jpg',
-    link: 'https://zingnews.vn/thu-truong-bo-y-te-ly-giai-nguyen-nhan-5-ca-duong-tinh-tro-lai-post1076026.html'
+    img: 'assets/anything/heloo.PNG',
+    link: ''
   };
   customer = {
-    name: 'Taylor Swift',
-    avatar: 'assets/anything/customer.jpg',
-    comment: 'I think your products very good, healthy and balance',
-    date: '25/04/2020'
+    name: 'Obama',
+    avatar: 'assets/anything/obama.PNG',
+    comment: 'Tổng thống ăn 2 suất bún chả, uống 2 chai bia và còn mua 4 suất mang về. Nguồn: Instagram Pete Souza.',
+    date: '25/04/2018'
   }
   constructor() { }
 
